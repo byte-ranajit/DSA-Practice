@@ -8,8 +8,10 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int arr [] = {10,30,23,2,4,100,3,28,29,90};
-        Arrays.sort(arr);
-        System.out.println(ArrayTestOne.binarySearch(arr,10));
+        int arr [] [] = { { 1, 2, 3, 4 },
+                        { 5, 6, 7, 8 },
+                        { 9, 10, 11, 12 } };
+        ArrayTestOne.printTwoDArray(arr);
     }
+
 }
