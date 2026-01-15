@@ -2,16 +2,12 @@ package org.example;
 
 import org.example.array.ArrayTestOne;
 
-import java.util.Arrays;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int arr [] [] = { { 1, 2, 3, 4 },
-                        { 5, 6, 7, 8 },
-                        { 9, 10, 11, 12 } };
-        ArrayTestOne.printTwoDArray(arr);
+        int [] arr = {10,20,30,40,50,60,70,80,90,100};
+        int target = 40;
+        System.out.println(ArrayTestOne.totalCountOccurance(arr, target));
     }
-
 }
